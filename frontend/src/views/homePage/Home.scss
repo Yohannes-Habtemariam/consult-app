@@ -19,11 +19,16 @@
       padding: 2rem;
     }
 
-    .paragraphs-environmental-analysis-home-page {
+    .stock-market-home-page {
       width: $mobile;
       margin: 1rem auto;
       font-size: 1.4rem;
       line-height: 2rem;
+
+      & span {
+        color: blue;
+        font-weight: 600;
+      }
     }
 
     .stock-market-elements {
