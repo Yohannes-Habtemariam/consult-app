@@ -38,7 +38,7 @@
       line-height: 2rem;
     }
 
-    .contact-meida-icon {
+    .contact-icon {
       font-size: 2.5rem;
       color: $title;
     }
@@ -144,3 +144,15 @@
     }
   }
 }
+
+// Additional styling 
+.errorVisible {
+  display: block;
+  color: red;
+  margin-top: -0.8rem;
+}
+
+.errorInvisible {
+  display: none;
+}
+

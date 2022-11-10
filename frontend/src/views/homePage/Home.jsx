@@ -23,7 +23,7 @@ const Home = () => {
           {HomePageData.map(({title, paragraph, image1, image2, image3, image4, alt1, alt2, alt3, alt4}) => {
             return (
               <section className="specific-environment-analysis-container">
-                <h2 className="sub-titles-of-home-page"> {title} </h2>
+                <h3 className="sub-titles-of-home-page"> {title} </h3>
                 <p className="paragraphs-environmental-analysis-home-page"> {paragraph} </p>
                 <figure className="images-of-environmental-analysis">
                   <img src={image1} alt={alt1} />
