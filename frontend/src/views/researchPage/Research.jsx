@@ -1,7 +1,4 @@
 import React from "react";
-import Journals from "../../assets/journal.jpg";
-import Books from "../../assets/book.jpg";
-import Projects from "../../assets/project.jpg";
 import { ResearchData } from "../../data/Data";
 import "./Research.scss";
 
