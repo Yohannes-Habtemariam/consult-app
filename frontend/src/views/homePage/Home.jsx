@@ -20,12 +20,12 @@ const Home = () => {
 
       <section className="stock-market-analysis">
 
-          {HomePageData.map(({title, paragraph, image1, image2, image3, image4, alt1, alt2, alt3, alt4}) => {
+          {HomePageData.map(({title, paragraph, image1, image2, image3, image4, alt1, alt2, alt3, alt4}, index) => {
             return (
               <section className="specific-environment-analysis-container">
                 <h3 className="sub-titles-of-home-page"> {title} </h3>
                 <p className="paragraphs-environmental-analysis-home-page"> {paragraph} </p>
-                <figure className="images-of-environmental-analysis">
+                <figure className="images-of-environmental-analysis" key={index}>
                   <img src={image1} alt={alt1} />
                   <img src={image2} alt={alt2} />
                   <img src={image3} alt={alt3} />
